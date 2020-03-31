@@ -39,7 +39,7 @@
         
         <div class="col-md-12 col-lg-12">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <img class="img-fluid" src="img/molecule-solution-large.png" alt="">
+            <img class="img-fluid" src="img/molecule-solution.png" alt="">
           </div>
         </div>
 
@@ -49,7 +49,7 @@
       <div class="control-group">
         <div class="form-group floating-label-form-group controls mb-0 pb-2">
           <label>CODE SECRET avec -</label>
-          <input class="form-control" id="codeSecret" type="text" placeholder="xxx-xxx-xxx-xxx" required="required" data-validation-required-message="Please enter your name.">
+          <input class="form-control" id="codeSecret" type="text" placeholder="xxx-xxx-xxx" required="required" data-validation-required-message="xxx-xxx-xxx">
           <p class="help-block text-danger"></p>
         </div>
       </div>
@@ -103,7 +103,7 @@
   <script type="text/javascript">
     $("#testCodeBtn").click(function() {
 
-      if(($("#codeSecret").val() =="123-422-024-804") || ($("#codeSecret").val() =="123422024804")) {
+      if(($("#codeSecret").val() =="123-422-024") || ($("#codeSecret").val() =="123422024")) {
         alert("Gagné, lis les instructions en ROUGE");
         $("#tobehide").show();
       } else {
