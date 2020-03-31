@@ -106,7 +106,7 @@
   <script type="text/javascript">
     $("#testCodeBtn").click(function() {
 
-      if($("#codeSecret").val() =="123-422-024-804"){
+      if(($("#codeSecret").val() =="123-422-024-804") || ($("#codeSecret").val() =="123422024804")) {
         alert("Gagné, lis les instructions en ROUGE");
         $("#tobehide").show();
       } else {
